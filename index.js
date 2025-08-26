@@ -1,6 +1,6 @@
 
    function submitForm(event) {
-            event.preventDefault(); // Prevent page refresh
+            event.preventDefault(); 
 
             const name = document.getElementById("name").value;
             const email = document.getElementById("email").value;
